@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ── PRIMARY SEO META ── -->
-<title>Imen Ferjani — Mathematician | Functional Analysis & Operator Theory</title>
+<title>Imen Ferjani — Mathematician | Operator Theory</title>
 <meta name="description" content="Dr. Imen Ferjani — PhD in Mathematics, researcher at the University of Sfax. Specialist in Functional Analysis, Operator Theory, Spectral Theory, and Demicompact Operators. 13 published articles, editorial board member, active conference speaker.">
 <meta name="keywords" content="Imen Ferjani, Operator Theory, Spectral Theory, Fredholm Theory, Banach Lattices, Functional Analysis, Demicompact Operators, Weakly Demicompact Operators, Generalized Weakly Demicompact Operators, Strictly Singular Operators, Measures of Noncompactness, Essential Spectrum, Pseudospectra, Linear Relations, Block Operator Matrices, Lattice-Normed Spaces, Weak Compactness, Positive Operators, Volterra Operators, Integral Operators, Compactness Criteria, Tunisia, ENIT, Faculty of Sciences of Sfax, University of Sfax">
 <meta name="author" content="Imen Ferjani">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://imen-ferjani.github.io/">
+<link rel="canonical" href="https://imenferjani.braiek.com/">
 
 <!-- ── FAVICON & APPLE TOUCH ICON ── -->
 <link rel="icon" type="image/png" sizes="64x64" href="icons/favicon2.png">
@@ -25,8 +25,8 @@
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Imen Ferjani — Mathematician | Functional Analysis & Operator Theory">
 <meta property="og:description" content="PhD in Mathematics, researcher at the University of Sfax. Specialist in Functional Analysis, Operator Theory and Spectral Theory. 13 published articles, h-index 4.">
-<meta property="og:url" content="https://imen-ferjani.github.io/">
-<meta property="og:image" content="https://imen-ferjani.github.io/photo_cv.png">
+<meta property="og:url" content="https://imenferjani.braiek.com/">
+<meta property="og:image" content="https://imenferjani.braiek.com/photo_cv.png">
 <meta property="og:image:alt" content="Dr. Imen Ferjani — Mathematician">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="fr_FR">
@@ -37,7 +37,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Imen Ferjani — Mathematician | Functional Analysis & Operator Theory">
 <meta name="twitter:description" content="PhD in Mathematics, researcher at the University of Sfax. 13 published articles in Functional Analysis and Operator Theory.">
-<meta name="twitter:image" content="https://imen-ferjani.github.io/photo_cv.png">
+<meta name="twitter:image" content="https://imenferjani.braiek.com/photo_cv.png">
 
 <!-- ── STRUCTURED DATA (Schema.org Person) ── -->
 <script type="application/ld+json">
@@ -49,8 +49,8 @@
   "familyName": "Ferjani",
   "jobTitle": "Researcher in Mathematics",
   "description": "PhD in Mathematics specializing in Functional Analysis, Operator Theory, and Spectral Theory.",
-  "url": "https://imen-ferjani.github.io",
-  "image": "https://imen-ferjani.github.io/photo_cv.png",
+  "url": "https://imenferjani.braiek.com",
+  "image": "https://imenferjani.braiek.com/photo_cv.png",
   "email": "imenoferjani@yahoo.fr",
   "sameAs": [
     "https://orcid.org/0000-0003-1482-4804",
@@ -274,6 +274,7 @@ nav {
 .btn-primary:hover { background: var(--rose-lt); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(192,98,79,0.35); }
 .btn-outline { background: transparent; border: 1px solid rgba(91,158,143,0.5); color: var(--sage-lt); }
 .btn-outline:hover { background: rgba(91,158,143,0.15); border-color: var(--sage); color: var(--white); }
+
 /* Download CV button in hero */
 .btn-cv {
   background: rgba(255,255,255,0.08); border: 1px solid rgba(192,98,79,0.45);
@@ -331,6 +332,25 @@ nav {
 }
 .s-stat-num { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 700; color: var(--soft); line-height: 1; }
 .s-stat-lbl { font-size: 0.62rem; color: var(--sage-lt); letter-spacing: 0.5px; text-transform: uppercase; margin-top: 1px; }
+
+/* ──   PDF Viewer  ──  */
+.pdf-container{
+    display:none;
+    margin-top:1rem;
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.pdf-container.active{
+    display:block;
+}
+
+.pdf-container iframe{
+    width:100%;
+    height:85vh;
+    border:none;
+}
 
 /* ── VISITOR COUNTER ── */
 #visitor-strip {
@@ -1453,6 +1473,7 @@ footer { background: var(--deep); padding: 40px 32px; text-align: center; }
               <span class="ed-info-label">Quartile</span><span class="ed-info-val"><span class="q-badge q3">Q3</span> Algebra and Number Theory (Scopus) · <span class="q-badge q4">Q4</span> Analysis (Scopus)</span>
               <span class="ed-info-label">Scope</span><span class="ed-info-val">Functional Analysis, Operator Theory, Spectral Theory, Applied Mathematics</span>
               <span class="ed-info-label">Indexing</span><span class="ed-info-val">Scopus · Web of Science (ESCI) · MathSciNet · zbMATH</span>
+              <a href="https://www.scimagojr.com/journalsearch.php?q=21101081704&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21101081704" alt="SCImago Journal &amp; Country Rank"  /></a>
             </div>
           </div>
         </div>
@@ -1568,7 +1589,9 @@ footer { background: var(--deep); padding: 40px 32px; text-align: center; }
     <div class="footer-line" data-i18n="footer_copy">© 2026 Imen Ferjani · Laboratory of Physics-Mathematics, FSS, University of Sfax</div>
     <div class="footer-line" data-i18n="footer_copy2">Road of Soukra Km 3.5, B.P. 1171, 3000, Sfax, Tunisia</div>
     <div class="footer-line" style="margin-top:10px;">Updated: 17 / 06 / 2026</div>
+    <div class="footer-line" style="margin-top:10px;">Powered by <a href="https://braiek.com" target="_blank" rel="noopener noreferrer" style="color: var(--rose);">BRAIEK.com</a>.</div>
   </div>
+  <a href="https://www.flagcounter.me/details/hzb"><img src="https://www.flagcounter.me/hzb/" alt="Flag Counter"></a>
 </footer>
 
 <button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" title="Back to top">
@@ -1768,6 +1791,10 @@ function togglePub(header) {
   const chevron = header.querySelector('.pub-chevron');
   const isOpen = drawer.classList.contains('open');
 
+  drawer.querySelectorAll('.pdf-container').forEach(pdf=>{
+    pdf.classList.remove('active');
+  });
+
   // close all others
   document.querySelectorAll('.pub-drawer.open').forEach(d => { d.classList.remove('open'); d.setAttribute('aria-hidden', 'true'); });
   document.querySelectorAll('.pub-chevron.open').forEach(c => c.classList.remove('open'));
@@ -1852,5 +1879,19 @@ document.addEventListener('DOMContentLoaded', () => {
   setLang('en');
 });
 </script>
+<script>
+function togglePdf(event, id, pdfUrl) {
+    event.preventDefault();
+    // Mobile devices
+    if (window.innerWidth <= 768) {
+        window.open(pdfUrl, '_blank');
+        return;
+    }
+    // Desktop behavior
+    const pdf = document.getElementById(id);
+    pdf.classList.toggle('active');
+}
+</script>
+
 </body>
 </html>
